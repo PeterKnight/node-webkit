@@ -12,7 +12,7 @@
       }
 
       function active() {
-        log(JSON.stringify(this) + ": Actived");
+        log(JSON.stringify(this) + ": Activated");
       }
 
       var gui = require('nw.gui');
@@ -60,7 +60,7 @@
   </head>
 
   <body>
-    <div>Now you can try to press 'Alt+Shit+A', 'Ctrl+K', 'Alt+B', 'Ctrl+Alt+C', 'MediaPrevTrack', 'MediaNextTrack', 'MediaPlayPause', 'MediaStop'.</div>
+    <div>Now you can try to press 'Alt+Shift+A', 'Ctrl+K', 'Alt+B', 'Ctrl+Alt+C', 'MediaPrevTrack', 'MediaNextTrack', 'MediaPlayPause', 'MediaStop'.</div>
     <button onclick="unregister()">Click Me to Unregister HotKey 'Ctrl+K' and 'Alt+B'</button>
     <pre id="log"></pre>
   </body>
